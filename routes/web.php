@@ -21,3 +21,9 @@ Route::get('/', function () {
     ];
     return view('home', $data);
 });
+Route::get('/about-us', function(){
+    return view('about_us');
+});
+Route::get('/shop', function(){
+    return view('shop');
+});
