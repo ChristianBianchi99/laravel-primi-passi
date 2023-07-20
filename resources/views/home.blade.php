@@ -9,5 +9,8 @@
     <h1>
         Hello World
     </h1>
+    <p>
+        {{$message}}, my name is {{$surname}} {{$name}}
+    </p>
 </body>
 </html>
